@@ -1,0 +1,27 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1717086656698,
+      "tag": "0000_perfect_shatterstar",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1717086742254,
+      "tag": "0001_luxuriant_wallow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1717087104852,
+      "tag": "0002_bouncy_shen",
+      "breakpoints": true
+    }
+  ]
+}
