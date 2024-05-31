@@ -1,7 +1,7 @@
 <script setup>
 import "dotenv/config"
-import { db } from "../drizzle/db"
-import { UserPreferencesTable, UserTable } from "../drizzle/schema";
+import { db } from "../src/drizzle/db"
+import { UserPreferencesTable, UserTable } from "../src/drizzle/schema";
 import { eq } from "drizzle-orm";
 
 async function fetchUsers() {
@@ -54,7 +54,9 @@ async function selectUser() {
 </script>
 
 <template>
-    <h1>Hello World</h1>
-    <button @click="fetchUsers">Fetch Users</button>
-    <button @click="addUser">Add User (Adds Mock User)</button>
+    <div>
+        <h1>Hello World</h1>
+        <button @click="fetchUsers">Fetch Users</button>
+        <button @click="addUser">Add User (Adds Mock User)</button>
+    </div>
 </template>
